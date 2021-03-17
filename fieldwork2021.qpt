@@ -1,0 +1,133 @@
+<Layout worldFileMap="{ad869311-d4ee-4707-80bc-e23a5b49f3b2}" printResolution="300" units="mm" name="fieldwork2021">
+ <Snapper snapToGuides="1" tolerance="5" snapToGrid="0" snapToItems="1"/>
+ <Grid resUnits="mm" offsetY="0" offsetX="0" offsetUnits="mm" resolution="10"/>
+ <PageCollection>
+  <symbol alpha="1" type="fill" name="" clip_to_extent="1">
+   <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem position="0,0,mm" zValue="0" positionOnPage="0,0,mm" itemRotation="0" excludeFromExports="0" uuid="{526e73d8-0fde-45a1-8401-2b64372129cb}" frameJoinStyle="miter" opacity="1" referencePoint="0" background="true" size="297,210,mm" positionLock="false" id="" blendMode="0" frame="false" visibility="1" type="65638" templateUuid="{526e73d8-0fde-45a1-8401-2b64372129cb}" groupUuid="" outlineWidthM="0.3,mm">
+   <FrameColor alpha="255" green="0" red="0" blue="0"/>
+   <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem positionOnPage="211.925,125.325,mm" columnCount="1" outlineWidthM="0.3,mm" wrapChar="" background="true" visibility="1" itemRotation="0" position="211.925,125.325,mm" lineSpacing="1" legendFilterByAtlas="0" groupUuid="" title="Stand 17.03.2021" rasterBorderColor="0,0,0,255" excludeFromExports="0" frame="false" map_uuid="{ad869311-d4ee-4707-80bc-e23a5b49f3b2}" uuid="{83abf15e-200b-4d1e-907a-2ccd83cad23e}" opacity="1" fontColor="#000000" positionLock="false" size="86.9,81.5,mm" wmsLegendHeight="25" zValue="2" type="65642" equalColumnWidth="0" templateUuid="{83abf15e-200b-4d1e-907a-2ccd83cad23e}" symbolWidth="7" resizeToContents="1" id="" blendMode="0" symbolHeight="4" frameJoinStyle="miter" referencePoint="0" splitLayer="0" columnSpace="2" titleAlignment="1" rasterBorder="1" rasterBorderWidth="0" boxSpace="2" wmsLegendWidth="50">
+  <FrameColor alpha="255" green="0" red="0" blue="0"/>
+  <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style marginBottom="3.5" name="title">
+    <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="group" marginTop="3">
+    <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="subgroup" marginTop="3">
+    <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbol" marginTop="2.5">
+    <styleFont description="MS Shell Dlg 2,9.75,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbolLabel" marginTop="2" marginLeft="2">
+    <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer checked="Qt::Checked" name="trees" id="trees_76daeaf1_b58c_4f01_8a0a_810d6a1f4264" expanded="1" source="./data/trees.gpkg|layername=trees" providerKey="ogr">
+    <customproperties>
+     <property key="expandedLegendNodes"/>
+     <property key="legend/label-0" value="Saftflusshalbmond"/>
+     <property key="legend/label-1" value="Buchen (core study trees)"/>
+     <property key="legend/node-order" value="0,1"/>
+     <property key="legend/title-label" value="Bäume (trees)"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-group checked="Qt::Checked" name="Tiere (animals)" expanded="1">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" name="eyries" id="horste_d7024964_ce94_42a0_898f_8f3a8a24124d" expanded="1" source="./data/horste.gpkg|layername=horste" providerKey="ogr">
+     <customproperties>
+      <property key="legend/label-0" value="Niedrige Sensibilität (low sensibility)"/>
+      <property key="legend/label-1" value="Hohe Sensibilität (high sensibility)"/>
+      <property key="legend/label-2" value="Mittlere Sensibilität (medium sensibility)"/>
+      <property key="legend/node-order" value="1,2,0"/>
+      <property key="legend/title-label" value="Horstschutzzonen (eyrie protection zones)"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <layer-tree-group checked="Qt::Checked" name="Jagd (Hunting)" expanded="1">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" name="jagdzone1" id="jagdzone1_21543c86_0d9f_4530_a57d_bf4c0d0ba75c" expanded="0" source="./data/jagdzone1.gpkg|layername=jagdzone1" providerKey="ogr">
+     <customproperties>
+      <property key="expandedLegendNodes"/>
+      <property key="legend/title-label" value="Jagdzone (hunting area)"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <custom-order enabled="0">
+    <item>horste_d7024964_ce94_42a0_898f_8f3a8a24124d</item>
+    <item>trees_76daeaf1_b58c_4f01_8a0a_810d6a1f4264</item>
+    <item>jagdzone1_21543c86_0d9f_4530_a57d_bf4c0d0ba75c</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem position="1.82513,1.42109e-14,mm" zValue="1" positionOnPage="1.82513,1.42109e-14,mm" itemRotation="0" excludeFromExports="0" uuid="{ad869311-d4ee-4707-80bc-e23a5b49f3b2}" frameJoinStyle="miter" opacity="1" referencePoint="0" background="true" size="297,210,mm" positionLock="false" id="" blendMode="0" frame="false" visibility="1" mapRotation="0" type="65639" templateUuid="{ad869311-d4ee-4707-80bc-e23a5b49f3b2}" groupUuid="" followPresetName="" drawCanvasItems="true" keepLayerSet="false" outlineWidthM="0.3,mm" followPreset="false">
+  <FrameColor alpha="255" green="0" red="0" blue="0"/>
+  <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent xmin="476398.48426925227977335" ymin="5631395.43866230361163616" xmax="478506.82089831866323948" ymax="5632886.18173336051404476"/>
+  <LayerSet/>
+  <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+ </LayoutItem>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+ </customproperties>
+ <Atlas pageNameExpression="" sortFeatures="0" hideCoverage="0" coverageLayer="" filterFeatures="0" enabled="0" filenamePattern="'output_'||@atlas_featurenumber"/>
+</Layout>
